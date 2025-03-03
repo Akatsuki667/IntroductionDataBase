@@ -2,8 +2,10 @@
 Système organisé permettant de _stocker_, _gérer_ et _récupérer_ des informations.
 Conçue pour contenir des données structurées et permet leur manipulation via des _requêtes_(`GET`, `POST`, `PUT`, `DELETE` etc.).
 
+
 # Fonctionnement
 __Système de Gestion de Base de Données__(SGBD): assure la création, la gestion et la mise à jour des données.
+
 
 ## Principales Opérations
 - __Stockage des données__: Information stockées sous une forme organisé
@@ -11,14 +13,14 @@ __Système de Gestion de Base de Données__(SGBD): assure la création, la gesti
 - __Requête et récupération__: Information stockées sous une forme organisé
 - __Sécurisation__: Contrôle d'accès, permissions et sauvegardes
 
-# Types de données
 
-## DB relationelles (SQL)
+# DB relationelles (SQL)
 Stocke les données sous forme de _tables_ avec des colones et des lignes.
 Utilisation de __Strutured Query Language__ pour interaction avec les données
 Ex.: _MySQL_, _PostrgreSQL_, _Oracle_, _Microsoft SQL Server_
 
-## DB NoSQL
+
+# DB NoSQL
 Stocke les données sous forme de _documents_, _paires clé-valeur_ ou _graphes_
 Ex.: _MongoDB_, _Redis_, _Cassandra_, _Firebase_
 Ex. stockage JSON(MongoDB)
@@ -31,9 +33,11 @@ Ex. stockage JSON(MongoDB)
 }
 ```
 
-## DB hiérarchiques
+
+# DB hiérarchiques
 Organise les données sous une structure d'arborescence(comme un arbre XML).
 Chaque enregistrement à une relation _parent-enfant_.
+
 
 # Pourquoi l'utilisation d'une DB
 - __Organisation/Struturation__: Facilite classement et recherche d'informations
@@ -73,6 +77,7 @@ ELSE
     COMMIT;  -- Validation définitive de la transaction
 END IF;
 ```
+
 
 # Architecture DB
 - __Tables__: Stockent les enregistrement sous formes lignes, colonnes.
