@@ -1,6 +1,6 @@
 # Introduction
 Système organisé permettant de _stocker_, _gérer_ et _récupérer_ des informations.
-Conçue pour contenir des données structurées et permet leur manipulation via des _requêtes_(`GET`, `POST`, `PUT`, `DELETE` etc.).
+Conçue pour contenir des données structurées et permet leur manipulation via des _requêtes_.
 
 
 # Fonctionnement
