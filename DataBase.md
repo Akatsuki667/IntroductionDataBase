@@ -21,6 +21,7 @@ Utilisation de __Strutured Query Language__ pour interaction avec les données.
 Ex.: _MySQL_, _PostrgreSQL_, _Oracle_, _Microsoft SQL Server_.
 
 Ex. table:
+
 ![Table](tables.png)
 
 # DB NoSQL
