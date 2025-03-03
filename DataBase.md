@@ -8,22 +8,25 @@ __Système de Gestion de Base de Données__(SGBD): assure la création, la gesti
 
 
 ## Principales Opérations
-- __Stockage des données__: Information stockées sous une forme organisé
-- __Manipulation des données__: Ajouter, modifier ou supprimer des enregistrements
-- __Requête et récupération__: Information stockées sous une forme organisé
-- __Sécurisation__: Contrôle d'accès, permissions et sauvegardes
+- __Stockage des données__: Information stockées sous une forme organisé.
+- __Manipulation des données__: Ajouter, modifier ou supprimer des enregistrements.
+- __Requête et récupération__: Information stockées sous une forme organisé.
+- __Sécurisation__: Contrôle d'accès, permissions et sauvegardes.
 
 
 # DB relationelles (SQL)
 Stocke les données sous forme de _tables_ avec des colones et des lignes.
-Utilisation de __Strutured Query Language__ pour interaction avec les données
-Ex.: _MySQL_, _PostrgreSQL_, _Oracle_, _Microsoft SQL Server_
+Utilisation de __Strutured Query Language__ pour interaction avec les données.
+
+Ex.: _MySQL_, _PostrgreSQL_, _Oracle_, _Microsoft SQL Server_.
 
 
 # DB NoSQL
-Stocke les données sous forme de _documents_, _paires clé-valeur_ ou _graphes_
-Ex.: _MongoDB_, _Redis_, _Cassandra_, _Firebase_
-Ex. stockage JSON(MongoDB)
+Stocke les données sous forme de _documents_, _paires clé-valeur_ ou _graphes_.
+
+Ex.: _MongoDB_, _Redis_, _Cassandra_, _Firebase_.
+
+Ex. stockage JSON(MongoDB).
 ```json
 {
     "id": 1,
@@ -40,10 +43,10 @@ Chaque enregistrement à une relation _parent-enfant_.
 
 
 # Pourquoi l'utilisation d'une DB
-- __Organisation/Struturation__: Facilite classement et recherche d'informations
+- __Organisation/Struturation__: Facilite classement et recherche d'informations.
 - __Performance/Rapidité__: Recherche optimisées grâçe aux index et aux requêtes optimisées.
-- __Sécurité__: Protection des données via mécanisme d'authentification et d'autoristaions
-- __Fiabilité/Intégrité__: Garantie cohérence des données(transactions __ACID__ en SQL)
+- __Sécurité__: Protection des données via mécanisme d'authentification et d'autoristaions.
+- __Fiabilité/Intégrité__: Garantie cohérence des données(transactions __ACID__ en SQL).
 
 __ACID__:
 - __Atomicité__: Si une transaction échoue, le résultat sera comme si elle n'avais jamais eu lieu.
@@ -81,11 +84,11 @@ END IF;
 
 # Architecture DB
 - __Tables__: Stockent les enregistrement sous formes lignes, colonnes.
-- __Schéma__: Définit la structure de la base (relations, contraintes, types de données)
-- __Index__: Accélèrent les recherche de données
-- __Vues__: Requêtes pré-enregistrées permettant de simplifier l'accès aux données
+- __Schéma__: Définit la structure de la base (relations, contraintes, types de données).
+- __Index__: Accélèrent les recherche de données.
+- __Vues__: Requêtes pré-enregistrées permettant de simplifier l'accès aux données.
 - __Transactions__: Assurent la cohérence des données aux propriétés __ACID__:
-	- __Atomicité__: Transaction tout ou rien
-	- __Cohérence__: Données restent valide
-	- __Isolation__: Transaction ne s'interfèrent pas
-	- __Durabilité__: Données sauvegardées même après crash
+	- __Atomicité__: Transaction tout ou rien.
+	- __Cohérence__: Données restent valide.
+	- __Isolation__: Transaction ne s'interfèrent pas.
+	- __Durabilité__: Données sauvegardées même après crash.
