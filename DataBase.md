@@ -20,6 +20,8 @@ Utilisation de __Strutured Query Language__ pour interaction avec les données.
 
 Ex.: _MySQL_, _PostrgreSQL_, _Oracle_, _Microsoft SQL Server_.
 
+Ex. table:
+![Table](IntroductionDataBase/tables.png)
 
 # DB NoSQL
 Stocke les données sous forme de _documents_, _paires clé-valeur_ ou _graphes_.
